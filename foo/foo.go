@@ -2,9 +2,8 @@ package foo
 
 import (
     "fmt"
-    "strings"
 )
 
-func get_foo() {
+func get_foo() (string) {
     return fmt.Sprintf("return from foo")
 }
