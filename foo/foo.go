@@ -4,6 +4,6 @@ import (
     "fmt"
 )
 
-func get_foo() (string) {
+func GetFoo() (string) {
     return fmt.Sprintf("return from foo")
 }
